@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins&display=swap');
+*{
+    background:#000;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.logo{
+width: 90%;
+height: 60%;
+
+} 
+
+.sidebar p{
+    height: 100%;
+    width: 15%;
+    background: #000;
+    color: #fff;
+    font-family: 'DM Sans';
+}
+
+.sidebar{
+    width: 15%;
+    background: #000;
+    color: #fff;
+}
+.main{
+    width: 30%;
+}
+    
+
+.home{
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+}
+.search{
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+}
+.library{
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+}
+.playlist{
+    width: 25px;
+    height: 25px;
+    margin-top: 40px;
+
+}
+.liked{
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+
+}
+.Episodes{
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+    
+}
+.Install{
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+}
+
+p{
+    margin-top: 20px;
+    color:white;
+    font-family: 'DM Sans';
+}
+
+
+/* .one{
+    height: 100px;
+    width: 275px;
+    background:#343634;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+}
+.two{
+    height: 100px;
+    width: 275px;
+    background:#343634;
+    position: absolute;
+    left: 60%;
+    top: 25%;
+}
+.three{
+    height: 100px;
+    width: 275px;
+    background:#343634;
+    position:absolute;
+    left: 20%;
+    top: 25%;
+} */
+
+.like{
+    height:100px;
+    
+}
+/* .four{
+    height: 100px;
+    width: 275px;
+    background:#343634;
+    position: absolute;
+    left:80%;
+    top: 25%;
+}
+.five{
+    height: 100px;
+    width: 275px;
+    background:#343634;
+    position: absolute;
+    left: 20%;
+    top:40%;
+} */
+.dv1sub{
+    width:  300px;
+   height: 90px;
+    background-color: #303030;
+    border-radius: 5px;
+    margin: 10px;
+    padding-right: 270px;
+    display: flex;
+    flex-direction:row;
+}
+.dv1{
+     display: flex;
+     height: 120px;
+    /* justify-content: space-between;
+    align-items: start; */
+    /* flex-wrap: wrap; */
+     flex-direction:row; 
+    position: absolute;
+    top: 35%;
+    
+}
+
+.six{
+display: flex;
+justify-content: center;
+color: #343634;
+}
+.arrow{
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    left: 20%;
+    top: 3%;
+}
+
+.artist{
+    display:flex;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    gap: 50px;
+}
+
+h1{
+    font-family:'DM Sans';
+    color: #fff;
+    position: absolute;
+    left: 20%;
+    top: 12%;
+
+}
+
+h2{
+    font-family: 'DM Sans';
+    color: #fff;
+    position: absolute;
+    left: 20%;
+    top: 60%;
+}
+
+span{
+    font-family: 'DM Sans';
+}
+.xr{
+    position: relative;
+   top: 20%;
+    color: #fff;
+    font-family:'DM Sans';
+   
+    
+}
+.dv1{
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+
+
+  
+
+@media screen and (max-width: 700px) {
+    .logo {
+        width: 15%;
+        height: 15%;
+    }
+    .burger {
+        height: 30px;
+      position: absolute;
+      top: 3%;
+      right: 2%;
+      
+    }
+
+    .sidebar  {
+        width: 15%;
+        text-align: center;
+        font-size: 14px;
+        display: none;
+    }
+
+    .container div {
+        
+        width: 100%;
+        left: 0;
+        text-align: center;
+        display: non;
+    }
+
+    .like {
+        height: auto;
+    }
+
+    .good {
+        display: none;
+    }
+
+    .arrow {
+        left: 5%;
+    }
+    .main{
+        width: 100%;
+    }
+    .dv1{
+        margin-left: 35px;
+    }
+
+    #artist {
+       display: flex;
+       flex-direction: column;
+    }
+    footer{
+        display: none;
+    }
+
+    h1, h2 {
+        text-align: center;
+    }
+}
+
