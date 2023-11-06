@@ -68,6 +68,10 @@ height: 60%;
     margin-top: 20px;
 }
 
+.burger{
+    height: 1px;
+}
+
 p{
     margin-top: 20px;
     color:white;
